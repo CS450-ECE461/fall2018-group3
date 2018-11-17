@@ -6,6 +6,7 @@ describe('app | routers | task', function () {
     it('should get all tasks', function () {
       return request()
         .get('/v1/tasks')
+        .withUserToken(0)
         .expect(200);
     });
 
@@ -13,6 +14,7 @@ describe('app | routers | task', function () {
       const {users: [,user]} = seed();
       return request()
         .get(`/v1/tasks?assignee=${user.id}`)
+        .withUserToken(0)
         .expect(200);
     });
   });
@@ -32,6 +34,7 @@ describe('app | routers | task', function () {
       return request()
         .post('/v1/tasks')
         .send({task})
+        .withUserToken(0)
         .expect(200);
     });
 
@@ -48,6 +51,7 @@ describe('app | routers | task', function () {
       return request()
         .post('/v1/tasks')
         .send({task})
+        .withUserToken(0)
         .expect(200);
     });
 
@@ -63,6 +67,7 @@ describe('app | routers | task', function () {
       return request()
         .post('/v1/tasks')
         .send({task})
+        .withUserToken(0)
         .expect(400);
     });
   });
@@ -73,6 +78,7 @@ describe('app | routers | task', function () {
       return request()
         .put(`/v1/tasks/${task.id}`)
         .send({description: 'this is a new description'})
+        .withUserToken(0)
         .expect(200);
     });
 
@@ -82,6 +88,7 @@ describe('app | routers | task', function () {
       return request()
         .put(`/v1/tasks/${task.id}`)
         .send({assignee: user._id})
+        .withUserToken(0)
         .expect(200);
     });
 
@@ -91,6 +98,7 @@ describe('app | routers | task', function () {
       return request()
         .put(`/v1/tasks/${task.id}`)
         .send({newdate})
+        .withUserToken(0)
         .expect(200);
     });
   });
@@ -100,6 +108,7 @@ describe('app | routers | task', function () {
       const {tasks: [task]} = seed();
       return request()
         .delete(`/v1/tasks/${task._id}`)
+        .withUserToken(0)
         .expect(200)
     });
   });

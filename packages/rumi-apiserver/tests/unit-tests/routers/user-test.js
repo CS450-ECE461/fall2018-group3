@@ -6,6 +6,7 @@ describe('app | routers | user', function () {
     it('should get all users', function () {
       return request()
         .get('/v1/users')
+        .withUserToken(0)
         .expect(200);
     });
 
@@ -13,6 +14,7 @@ describe('app | routers | user', function () {
       const {users: [,,user]} = seed();
       return request()
         .get(`/v1/users/${user.id}`)
+        .withUserToken(0)
         .expect(200);
     });
   });
@@ -23,6 +25,7 @@ describe('app | routers | user', function () {
       return request()
         .put(`/v1/users/${user.id}`)
         .send({user: {name: 'update-name'}})
+        .withUserToken(0)
         .expect(200);
     });
 
@@ -31,6 +34,7 @@ describe('app | routers | user', function () {
       return request()
         .put(`/v1/users/${user.id}`)
         .send({user: {role: 'user'}})
+        .withUserToken(0)
         .expect(200);
     });
   });

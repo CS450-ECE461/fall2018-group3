@@ -3,7 +3,12 @@ module.exports = {
     $default: {
       uri: 'mongodb://localhost/rumi-apiserver_',
       seed: true,
-      options: {}
+      options: {
+        readPreference: "primary",
+        forceServerObjectId: false,
+        w: 1,
+        autoReconnect: true
+      }
     }
   }
 };

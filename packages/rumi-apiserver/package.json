@@ -13,9 +13,7 @@
     "uninstall-service": "sudo -s forever-service delete rumi-apiserver_d"
   },
   "dependencies": {
-    "@onehilltech/blueprint": "^4.5.4",
-    "@onehilltech/blueprint-mongodb": "^1.8.2",
-    "@onehilltech/dab": "^1.2.0",
+    "@onehilltech/blueprint-gatekeeper": "^0.86.0",
     "pug": "^2.0.3"
   },
   "devDependencies": {

@@ -1,23 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b33d87b-3034-4385-a0f4-0ecf878c156c" name="Default" comment="added user/task models and some tests for each">
-      <change afterPath="$PROJECT_DIR$/packages/rumi-apiserver/app/configs/mongodb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/rumi-apiserver/app/controllers/task.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/rumi-apiserver/app/controllers/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/rumi-apiserver/app/models/task.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/rumi-apiserver/app/models/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/rumi-apiserver/app/routers/v1/task.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/rumi-apiserver/app/routers/v1/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/rumi-apiserver/app/seeds/mongodb/$default.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/rumi-apiserver/tests/unit-tests/routers/task-test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/rumi-apiserver/tests/unit-tests/routers/user-test.js" afterDir="false" />
+    <list default="true" id="c4a19246-c70b-4cc4-ab73-0eb673df9bca" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/packages/rumi-apiserver/app/configs/gatekeeper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/rumi-apiserver/app/routers/endpoint.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rumi-apiserver/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rumi-apiserver/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lerna.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rumi-apiserver/app/configs/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rumi-apiserver/app/configs/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rumi-apiserver/app/configs/mongodb.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rumi-apiserver/app/configs/mongodb.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rumi-apiserver/app/seeds/mongodb/$default.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rumi-apiserver/app/seeds/mongodb/$default.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rumi-apiserver/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/rumi-apiserver/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rumi-apiserver/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rumi-apiserver/yarn-error.log" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rumi-apiserver/yarn-error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rumi-apiserver/tests/unit-tests/routers/task-test.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rumi-apiserver/tests/unit-tests/routers/task-test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rumi-apiserver/tests/unit-tests/routers/user-test.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rumi-apiserver/tests/unit-tests/routers/user-test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,53 +27,61 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="mongodb.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/packages/rumi-apiserver/app/configs/mongodb.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="$default.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/packages/rumi-apiserver/app/seeds/mongodb/$default.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="task-test.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/packages/rumi-apiserver/tests/unit-tests/routers/task-test.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="82" column="7" selection-start-line="82" selection-start-column="7" selection-end-line="82" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user-test.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/packages/rumi-apiserver/tests/unit-tests/routers/user-test.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="task.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/packages/rumi-apiserver/app/models/task.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="user-test.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/packages/rumi-apiserver/tests/unit-tests/routers/user-test.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret column="8" selection-start-column="8" selection-end-column="8" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="task-test.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/packages/rumi-apiserver/tests/unit-tests/routers/task-test.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="391">
+                  <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="poll.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/packages/rumi-apiserver/app/models/poll.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="340">
+                  <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="task.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/packages/rumi-apiserver/app/models/task.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="408">
+                  <caret line="24" selection-start-line="24" selection-end-line="24" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="task.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/packages/rumi-apiserver/app/models/task.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="408">
+                  <caret line="24" selection-start-line="24" selection-end-line="24" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -89,22 +94,24 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="issue-6" />
       </map>
     </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/packages/rumi-apiserver/app/models/task.js" />
-        <option value="$PROJECT_DIR$/packages/rumi-apiserver/app/models/user.js" />
-        <option value="$PROJECT_DIR$/packages/rumi-apiserver/app/configs/mongodb.js" />
-        <option value="$PROJECT_DIR$/packages/rumi-apiserver/app/seeds/$default.js" />
+        <option value="$PROJECT_DIR$/packages/rumi-apiserver/app/controllers/user.js" />
+        <option value="$PROJECT_DIR$/packages/rumi-apiserver/app/controllers/task.js" />
+        <option value="$PROJECT_DIR$/packages/rumi-apiserver/app/routers/endpoint.js" />
+        <option value="$PROJECT_DIR$/packages/rumi-apiserver/app/configs/env/gatekeeper.js" />
+        <option value="$PROJECT_DIR$/packages/rumi-apiserver/app/configs/app.js" />
         <option value="$PROJECT_DIR$/packages/rumi-apiserver/app/seeds/mongodb/$default.js" />
-        <option value="$PROJECT_DIR$/packages/rumi-apiserver/tests/unit-tests/routers/user-test.js" />
+        <option value="$PROJECT_DIR$/packages/rumi-apiserver/app/configs/mongodb.js" />
         <option value="$PROJECT_DIR$/packages/rumi-apiserver/package.json" />
-        <option value="$PROJECT_DIR$/yarn.lock" />
+        <option value="$PROJECT_DIR$/packages/rumi-apiserver/tests/unit-tests/routers/user-test.js" />
         <option value="$PROJECT_DIR$/packages/rumi-apiserver/tests/unit-tests/routers/task-test.js" />
+        <option value="$PROJECT_DIR$/packages/rumi-apiserver/app/models/poll.js" />
       </list>
     </option>
   </component>
@@ -115,29 +122,28 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/node_modules" />
     <handled-path value="$PROJECT_DIR$/packages/rumi-apiserver/node_modules" />
     <handled-path value="$PROJECT_DIR$/packages/rumi-dashboard/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
-      <path value="$PROJECT_DIR$/package.json" />
       <path value="$PROJECT_DIR$/packages/rumi-apiserver/package.json" />
       <path value="$PROJECT_DIR$/packages/rumi-apiserver/tests/dummy/package.json" />
       <path value="$PROJECT_DIR$/packages/rumi-dashboard/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
-    <option name="x" value="51" />
-    <option name="y" value="24" />
-    <option name="width" value="935" />
-    <option name="height" value="1056" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="984" />
+    <option name="y" value="-4" />
+    <option name="width" value="937" />
+    <option name="height" value="1085" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -162,14 +168,6 @@
               <item name="packages" type="462c0819:PsiDirectoryNode" />
               <item name="rumi-apiserver" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rumi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rumi" type="462c0819:PsiDirectoryNode" />
-              <item name="packages" type="462c0819:PsiDirectoryNode" />
-              <item name="rumi-apiserver" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="configs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rumi" type="b2602c69:ProjectViewProjectNode" />
@@ -204,66 +202,25 @@
               <item name="routers" type="462c0819:PsiDirectoryNode" />
               <item name="v1" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="rumi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rumi" type="462c0819:PsiDirectoryNode" />
-              <item name="packages" type="462c0819:PsiDirectoryNode" />
-              <item name="rumi-apiserver" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="seeds" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rumi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rumi" type="462c0819:PsiDirectoryNode" />
-              <item name="packages" type="462c0819:PsiDirectoryNode" />
-              <item name="rumi-apiserver" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="seeds" type="462c0819:PsiDirectoryNode" />
-              <item name="mongodb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rumi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rumi" type="462c0819:PsiDirectoryNode" />
-              <item name="packages" type="462c0819:PsiDirectoryNode" />
-              <item name="rumi-apiserver" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rumi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rumi" type="462c0819:PsiDirectoryNode" />
-              <item name="packages" type="462c0819:PsiDirectoryNode" />
-              <item name="rumi-apiserver" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="unit-tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rumi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rumi" type="462c0819:PsiDirectoryNode" />
-              <item name="packages" type="462c0819:PsiDirectoryNode" />
-              <item name="rumi-apiserver" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="unit-tests" type="462c0819:PsiDirectoryNode" />
-              <item name="routers" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="models/task.js&#9;FILE&#9;file:///home/seth/rumi/packages/rumi-apiserver/app/models/task.js&#10;$defaul&#9;FILE&#9;file:///home/seth/rumi/packages/rumi-apiserver/app/seeds/mongodb/$default.js" />
+    <property name="SearchEverywhereHistoryKey" value="$defaul&#9;FILE&#9;file:///home/seth/rumi/packages/rumi-apiserver/app/seeds/mongodb/$default.js&#10;$defau&#9;FILE&#9;file:///home/seth/rumi/packages/rumi-apiserver/app/seeds/mongodb/$default.js" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/packages/rumi-apiserver/tests/unit-tests" />
-    <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/node_modules/mocha" />
+    <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/packages/rumi-apiserver/node_modules/mocha" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="yarn" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/packages/rumi-apiserver/app/seeds/mongodb" />
       <recent name="$PROJECT_DIR$/packages/rumi-apiserver/app/routers/v1" />
+      <recent name="$PROJECT_DIR$/packages/rumi-apiserver/app/configs" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -282,7 +239,7 @@
     <configuration name="BP Testing" type="mocha-javascript-test-runner" factoryName="Mocha">
       <node-interpreter>project</node-interpreter>
       <node-options />
-      <working-directory>$PROJECT_DIR$/</working-directory>
+      <working-directory>$PROJECT_DIR$</working-directory>
       <pass-parent-env>true</pass-parent-env>
       <envs>
         <env name="NODE_ENV" value="test" />
@@ -299,64 +256,84 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0b33d87b-3034-4385-a0f4-0ecf878c156c" name="Default" comment="" />
+      <changelist id="c4a19246-c70b-4cc4-ab73-0eb673df9bca" name="Default" comment="" />
       <created>1542042363416</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542042363416</updated>
-      <workItem from="1542042365807" duration="8374000" />
+      <workItem from="1542042365807" duration="12792000" />
+      <workItem from="1542071681617" duration="3385000" />
+      <workItem from="1542122862077" duration="2176000" />
+      <workItem from="1542216046845" duration="3327000" />
+      <workItem from="1542230703046" duration="231000" />
+      <workItem from="1542295648997" duration="1933000" />
+      <workItem from="1542480481670" duration="3243000" />
+    </task>
+    <task id="LOCAL-00001" summary="added user/task models and some tests for each">
+      <created>1542053114878</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1542053114878</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fixed seeding">
+      <created>1542053638523</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1542053638523</updated>
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BP_Testing - 2018.11.12 at 14h 51m 40s.xml">
+    <history-entry file="BP_Testing - 2018.11.14 at 16h 28m 02s.xml">
       <configuration name="BP Testing" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="BP_Testing - 2018.11.12 at 14h 51m 48s.xml">
+    <history-entry file="BP_Testing - 2018.11.15 at 10h 27m 46s.xml">
       <configuration name="BP Testing" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="BP_Testing - 2018.11.12 at 14h 52m 06s.xml">
+    <history-entry file="BP_Testing - 2018.11.15 at 10h 28m 22s.xml">
       <configuration name="BP Testing" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="BP_Testing - 2018.11.12 at 14h 55m 31s.xml">
+    <history-entry file="BP_Testing - 2018.11.15 at 10h 28m 36s.xml">
       <configuration name="BP Testing" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="BP_Testing - 2018.11.12 at 14h 56m 04s.xml">
+    <history-entry file="BP_Testing - 2018.11.15 at 11h 25m 47s.xml">
       <configuration name="BP Testing" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="BP_Testing - 2018.11.12 at 15h 01m 50s.xml">
+    <history-entry file="BP_Testing - 2018.11.15 at 11h 26m 02s.xml">
       <configuration name="BP Testing" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="BP_Testing - 2018.11.12 at 15h 02m 35s.xml">
+    <history-entry file="BP_Testing - 2018.11.15 at 11h 26m 17s.xml">
       <configuration name="BP Testing" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="BP_Testing - 2018.11.12 at 15h 02m 53s.xml">
+    <history-entry file="BP_Testing - 2018.11.15 at 11h 27m 26s.xml">
       <configuration name="BP Testing" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="BP_Testing - 2018.11.12 at 15h 03m 02s.xml">
+    <history-entry file="BP_Testing - 2018.11.15 at 11h 38m 40s.xml">
       <configuration name="BP Testing" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="BP_Testing - 2018.11.12 at 15h 03m 09s.xml">
+    <history-entry file="BP_Testing - 2018.11.17 at 13h 50m 11s.xml">
       <configuration name="BP Testing" configurationId="mocha-javascript-test-runner" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8374000" />
+    <option name="totallyTimeSpent" value="18013000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="51" y="24" width="935" height="1056" extended-state="4" />
+    <frame x="50" y="-4" width="1871" height="1085" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24758843" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20973782" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5016077" side_tool="true" weight="0.3284055" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49839228" visible="true" weight="0.3284055" />
       <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49839228" weight="0.32786885" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4994641" weight="0.36219642" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39915523" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4994641" visible="true" weight="0.35963115" />
       <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39915523" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -375,36 +352,77 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/packages/rumi-apiserver/app/controllers/task.js">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/packages/rumi-apiserver/tests/unit-tests/routers/user-test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/packages/rumi-apiserver/app/controllers/user.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/rumi-apiserver/app/routers/v1/task.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/rumi-apiserver/app/routers/v1/user.js">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/packages/rumi-apiserver/tests/unit-tests/routers/task-test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/packages/rumi-apiserver/app/configs/app.js">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/packages/rumi-apiserver/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yarn.lock">
+    <entry file="file://$PROJECT_DIR$/packages/rumi-apiserver/app/configs/mongodb.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-238">
-          <caret line="678" selection-start-line="678" selection-end-line="678" />
+        <state relative-caret-position="153">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/packages/rumi-apiserver/app/configs/gatekeeper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/rumi-apiserver/app/routers/endpoint.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/rumi-apiserver/tests/unit-tests/routers/task-test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/rumi-apiserver/app/configs/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/rumi-apiserver/app/seeds/mongodb/$default.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/rumi-apiserver/app/routers/v1/user.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/packages/rumi-apiserver/app/models/user.js">
@@ -414,17 +432,155 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/packages/rumi-apiserver/tests/unit-tests/routers/user-test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/packages/rumi-apiserver/app/configs/mongodb.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/rumi-apiserver/app/configs/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/rumi-apiserver/app/configs/mongodb.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/packages/rumi-apiserver/app/seeds/mongodb/$default.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/rumi-apiserver/app/controllers/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/rumi-apiserver/app/controllers/task.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/rumi-apiserver/app/routers/v1/task.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yarn.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-238">
+          <caret line="678" selection-start-line="678" selection-end-line="678" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/rumi-apiserver/app/controllers/task.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/rumi-apiserver/app/controllers/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/rumi-apiserver/app/configs/server.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/rumi-apiserver/app/routers/v1/user.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lerna.json" />
+    <entry file="file://$PROJECT_DIR$/packages/rumi-apiserver/tests/unit-tests/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json" />
+    <entry file="file://$PROJECT_DIR$/packages/rumi-apiserver/app/models/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/rumi-apiserver/app/configs/mongodb.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/rumi-apiserver/node_modules/@onehilltech/blueprint-gatekeeper/app/models/client.js" />
+    <entry file="file://$PROJECT_DIR$/packages/rumi-apiserver/node_modules/@onehilltech/blueprint-gatekeeper/node_modules/@onehilltech/blueprint-mongodb/lib/models.js" />
+    <entry file="file://$PROJECT_DIR$/packages/rumi-apiserver/node_modules/@onehilltech/blueprint/lib/framework.js" />
+    <entry file="file://$PROJECT_DIR$/packages/rumi-apiserver/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/rumi-apiserver/node_modules/@onehilltech/blueprint-gatekeeper/app/models/access-token.js" />
+    <entry file="file://$PROJECT_DIR$/packages/rumi-apiserver/node_modules/@onehilltech/blueprint-gatekeeper/node_modules/@onehilltech/blueprint-mongodb/lib/schema/types/ref.js" />
+    <entry file="file://$PROJECT_DIR$/packages/rumi-apiserver/app/configs/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/rumi-apiserver/app/configs/gatekeeper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/rumi-apiserver/app/routers/endpoint.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/rumi-apiserver/app/seeds/mongodb/$default.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/rumi-apiserver/tests/unit-tests/routers/user-test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/rumi-apiserver/tests/unit-tests/routers/task-test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -435,17 +591,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/packages/rumi-apiserver/tests/unit-tests/routers/task-test.js">
+    <entry file="file://$PROJECT_DIR$/packages/rumi-apiserver/app/models/poll.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="82" column="7" selection-start-line="82" selection-start-column="7" selection-end-line="82" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/rumi-apiserver/tests/unit-tests/routers/user-test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+        <state relative-caret-position="340">
+          <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
         </state>
       </provider>
     </entry>
