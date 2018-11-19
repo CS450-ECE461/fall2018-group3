@@ -1,6 +1,6 @@
-const { Router } = require ('@onehilltech/blueprint');
+const {Router} = require('@onehilltech/blueprint');
 
-module.exports = Router.extend ({
+module.exports = Router.extend({
   specification: {
     '/polls': {
       resource: {

@@ -2,8 +2,8 @@ const {Seed} = require('@onehilltech/blueprint-mongodb');
 const dab = require('@onehilltech/dab');
 
 
-module.exports = Seed.extend ({
-  model () {
+module.exports = Seed.extend({
+  model() {
     return {
       native: [
         {

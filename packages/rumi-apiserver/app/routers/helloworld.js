@@ -1,6 +1,6 @@
 module.exports = {
-  '/' : {
-    get  : { view   : 'helloworld.pug' },
-    post : { action : 'helloworld@echoName'},
+  '/': {
+    get: {view: 'helloworld.pug'},
+    post: {action: 'helloworld@echoName'},
   }
 };
